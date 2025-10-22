@@ -84,6 +84,6 @@ class BinaryTree{
   }
 
   bool isBST( root ){
-
+    return isBSTRec1( root );
   }
 };
